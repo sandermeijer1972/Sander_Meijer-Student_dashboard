@@ -10,7 +10,7 @@ class Charts extends React.Component {
         }
     }
 
-    render() {
+    render() {        
 
         const justFun = () => {
             this.setState({fun: true, difficult: false})
