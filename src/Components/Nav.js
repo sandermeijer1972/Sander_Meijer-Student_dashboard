@@ -7,34 +7,34 @@ function Nav() {
             <Link to="/">
                 <div>alle studenten</div>
             </Link>
-            <Link to="Evelyn">
+            <Link to="../Evelyn">
                 <div>Evelyn</div>
             </Link>
-            <Link to="Aranka">
+            <Link to="../Aranka">
                 <div>Aranka</div>
             </Link>
-            <Link to="Floris">
+            <Link to="../Floris">
                 <div>Floris</div>
             </Link>
-            <Link to="Hector">
+            <Link to="../Hector">
                 <div>Hector</div>
             </Link>
-            <Link to="Martina">
+            <Link to="../Martina">
                 <div>Martina</div>
             </Link>
-            <Link to="Maurits">
+            <Link to="../Maurits">
                 <div>Maurits</div>
             </Link>
-            <Link to="Rahima">
+            <Link to="../Rahima">
                 <div>Rahima</div>
             </Link>
-            <Link to="Sandra">
+            <Link to="../Sandra">
                 <div>Sandra</div>
             </Link>
-            <Link to="Wietske">
+            <Link to="../Wietske">
                 <div>Wietske</div>
             </Link>
-            <Link to="Storm">
+            <Link to="../Storm">
                 <div>Storm</div>
             </Link>            
         </div>
