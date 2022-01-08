@@ -36,7 +36,10 @@ function Nav() {
             </Link>
             <Link to="../Storm">
                 <div>Storm</div>
-            </Link>            
+            </Link>
+            <Link to="../Sander">
+                <div>Sander</div>
+            </Link>         
         </div>
     )
 }

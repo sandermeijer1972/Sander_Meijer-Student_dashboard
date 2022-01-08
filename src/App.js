@@ -1,7 +1,9 @@
 import React from "react"
 import "./App.css"
 import studentData from "./Data/studentdata.json"
-//import studentInfo from "../Data/studentinfo"
+import studentInfo from "./Data/studentinfo"
+import sanderData from "./Data/sanderData"
+import sanderInfo from "./Data/sanderInfo"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Header from "./Components/Header"
 import Main from "./Components/Main"
@@ -45,6 +47,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Main studentData={allStudents} />} />
                 {studentToDisplay}
+                <Route path="Sander" element={<Main studentData={sanderData} />} />
             </Routes> 
             <Footer />
         </Router>
