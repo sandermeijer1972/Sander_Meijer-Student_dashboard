@@ -1,17 +1,20 @@
 import React from "react"
 
-import Nav from "./Nav"
 import Charts from "./Charts"
+import StudentInfo from "./StudentInfo"
+import Buttons from "./Buttons"
 
 
 
 
-function Main({studentData}) {
-    console.log(studentData)
+function Main({studentData, chartDisplay, handleDisplayChange, studentInfo}) {
+    //console.log(studentData)
+    //console.log(studentInfo)
     return (
         <div>
-            <Nav />
-            <Charts student={studentData}/>                       
+            <Charts student={studentData} display={chartDisplay} />
+            <StudentInfo studentName={studentInfo} />
+            <Buttons display={chartDisplay} handleOptionChange={handleDisplayChange} />              
         </div>
     )
 }

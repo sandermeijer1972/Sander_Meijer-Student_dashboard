@@ -3340,5 +3340,23 @@
    "opdracht": "W5D5 - Lil_Playlist",
    "moeilijkheidsgraad": 1,
    "funfactor": 2
- }
+ },
+ {
+   "naam": "Storm",
+   "opdracht": "W6D1-1",
+   "moeilijkheidsgraad": 4,
+   "funfactor": 4
+ },
+ {
+  "naam": "Storm",
+  "opdracht": "W6D2-1",
+  "moeilijkheidsgraad": 1,
+  "funfactor": 1
+},
+{
+  "naam": "Storm",
+  "opdracht": "W6D2 - Eindopdracht",
+  "moeilijkheidsgraad": 3,
+  "funfactor": 3
+}
 ]
