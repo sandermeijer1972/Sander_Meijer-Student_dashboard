@@ -1,5 +1,15 @@
 const sanderData = [
     {
+        opdracht: "Eerste HTML",
+        moeilijkheidsgraad: 1,
+        funfactor: 3
+    },
+    {
+        opdracht: "Links, plaatjes & lijsten",
+        moeilijkheidsgraad: 2,
+        funfactor: 3
+    },
+    {
         opdracht: "Semantische HTML",
         moeilijkheidsgraad: 2,
         funfactor: 3
@@ -8,6 +18,11 @@ const sanderData = [
         opdracht: "Deploy met Netlify",
         moeilijkheidsgraad: 2,
         funfactor: 5
+    },
+    {
+        opdracht: "CSS basics",
+        moeilijkheidsgraad: 2,
+        funfactor: 4
     },
     {
         opdracht: "CSS boxmodel",
@@ -28,6 +43,11 @@ const sanderData = [
         opdracht: "HTML formulier",
         moeilijkheidsgraad: 3,
         funfactor: 3
+    },
+    {
+        opdracht: "Groot formulier",
+        moeilijkheidsgraad: 3,
+        funfactor: 4
     },
     {
         opdracht: "Flexbox froggy",
@@ -60,6 +80,11 @@ const sanderData = [
         funfactor: 4
     },
     {
+        opdracht: "CSS Pseudo-classes",
+        moeilijkheidsgraad: 3,
+        funfactor: 2
+    },
+    {
         opdracht: "CSS pseudo-elements",
         moeilijkheidsgraad: 3,
         funfactor: 3
@@ -75,6 +100,11 @@ const sanderData = [
         funfactor: 4
     },
     {
+        opdracht: "Transformaties",
+        moeilijkheidsgraad: 4,
+        funfactor: 3
+    },
+    {
         opdracht: "Sass",
         moeilijkheidsgraad: 4,
         funfactor: 3
@@ -83,6 +113,11 @@ const sanderData = [
         opdracht: "Advanced CSS",
         moeilijkheidsgraad: 5,
         funfactor: 5
+    },
+    {
+        opdracht: "Commandline interface",
+        moeilijkheidsgraad: 4,
+        funfactor: 3
     },
     {
         opdracht: "Eerste javascript",
@@ -165,6 +200,11 @@ const sanderData = [
         funfactor: 1
     },
     {
+        opdracht: "Fetch data",
+        moeilijkheidsgraad: 4,
+        funfactor: 1
+    },
+    {
         opdracht: "Promises",
         moeilijkheidsgraad: 4,
         funfactor: 3
@@ -203,6 +243,11 @@ const sanderData = [
         opdracht: "TDD groentetuin",
         moeilijkheidsgraad: 4,
         funfactor: 5
+    },
+    {
+        opdracht: "React",
+        moeilijkheidsgraad: 4,
+        funfactor: 4
     },
     {
         opdracht: "Boodschappenlijst",

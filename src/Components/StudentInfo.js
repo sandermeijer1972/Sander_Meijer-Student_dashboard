@@ -3,7 +3,7 @@ import React from "react"
 function StudentInfo({studentName}) {
     return (
         <div>
-            <img src={studentName.photo} alt=""></img>
+            <img src={studentName.photo} alt="" width="124px"></img>
             <div>{studentName.firstname} {studentName.lastname}</div>
             <div>{studentName.residence}<span style={{display: !studentName.age && "none"}}>, {studentName.age} jaar</span></div>
             <div><i className="fas fa-phone"></i> {studentName.phone}</div>

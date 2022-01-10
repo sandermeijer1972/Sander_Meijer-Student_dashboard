@@ -3,6 +3,7 @@ body {
   color: white;
   text-align: center;
   margin: 0;
+  padding: 10px;
 }
 
 img {
@@ -19,5 +20,18 @@ a {
 
 .menu-active {
   color: yellow;
+}
+
+.bigchart {
+  display: none;
+}
+
+@media (min-width: 850px) {
+  .bigchart {
+    display: contents;
+  }
+  .smallchart {
+    display: none;
+  }
 }
 

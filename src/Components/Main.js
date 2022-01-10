@@ -12,9 +12,9 @@ function Main({studentData, chartDisplay, handleDisplayChange, studentInfo}) {
     //console.log(studentInfo)
     return (
         <div>
-            <Charts student={studentData} display={chartDisplay} />
-            <StudentInfo studentName={studentInfo} />
-            <Buttons display={chartDisplay} handleOptionChange={handleDisplayChange} />              
+            <Charts student={studentData} display={chartDisplay} />            
+            <Buttons display={chartDisplay} handleOptionChange={handleDisplayChange} />
+            <StudentInfo studentName={studentInfo} />              
         </div>
     )
 }
