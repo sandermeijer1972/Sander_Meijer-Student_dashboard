@@ -43,15 +43,46 @@ class App extends React.Component {
     constructor() {
         super()
         this.state = {
-            chartDisplay: {fun: true, difficult: true},
-            menuDisplay: {all: true, evelyn: false, aranka: false, floris: false, hector: false, martina: false, maurits: false, rahima: false, sandra: false, wietske: false, storm: false, sander: false}
+            chartDisplay: {
+                fun: true, 
+                difficult: true
+            },
+            menuDisplay: {
+                all: true, 
+                evelyn: false, 
+                aranka: false, 
+                floris: false, 
+                hector: false, 
+                martina: false, 
+                maurits: false, 
+                rahima: false, 
+                sandra: false, 
+                wietske: false, 
+                storm: false, 
+                sander: false
+            }
         }
     }
 
     render() {
 
         const emptyMenuState = () => {
-            this.setState({menuDisplay: {all: false, evelyn: false, aranka: false, floris: false, hector: false, martina: false, maurits: false, rahima: false, sandra: false, wietske: false, storm: false, sander: false}})
+            this.setState({
+                menuDisplay: {
+                    all: false, 
+                    evelyn: false, 
+                    aranka: false, 
+                    floris: false, 
+                    hector: false, 
+                    martina: false, 
+                    maurits: false, 
+                    rahima: false, 
+                    sandra: false, 
+                    wietske: false, 
+                    storm: false, 
+                    sander: false
+                }
+            })
         }
 
         const changeMenuState = (stud) => {
@@ -93,7 +124,22 @@ class App extends React.Component {
                     this.setState({menuDisplay: {sander: true}})
                     break
                 default:
-                    this.setState({menuDisplay: {all: true, evelyn: false, aranka: false, floris: false, hector: false, martina: false, maurits: false, rahima: false, sandra: false, wietske: false, storm: false, sander: false}})
+                    this.setState({
+                        menuDisplay: {
+                            all: true, 
+                            evelyn: false, 
+                            aranka: false, 
+                            floris: false, 
+                            hector: false, 
+                            martina: false, 
+                            maurits: false, 
+                            rahima: false, 
+                            sandra: false, 
+                            wietske: false, 
+                            storm: false, 
+                            sander: false
+                        }
+                    })
             }
         }
 
