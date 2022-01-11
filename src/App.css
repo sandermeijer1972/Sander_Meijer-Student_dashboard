@@ -1,37 +1,245 @@
 body {
-  background-color: black;
-  color: white;
-  text-align: center;
-  margin: 0;
-  padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
+  
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
-
+  
 a {
-  text-decoration: none;
+    text-decoration: none;
+}
+  
+h1 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin: 0;
+    padding: 15px 5px;
+    font-size: 32px;
+    color: #9933FF;
 }
 
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
 .menu-item {
-  color: white;
+    background-color: #4D0099;
+    font-size: 20px;
+    color: white;
+    width: 85px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 3px;
 }
 
+.menu-item:hover {
+    background-color: #CC99FF;
+    color: black;
+}
+  
 .menu-active {
-  color: yellow;
+    background-color: #FFFF00;
+    font-size: 22px;
+    color: black;
+    width: 85px;
+    padding: 4px 5px;
+    border-radius: 5px;
+    margin: 3px;
 }
 
+.smallchart {
+    max-width: 700px;
+    margin: 1px auto 10px;
+}
+  
 .bigchart {
-  display: none;
-}
-
-@media (min-width: 850px) {
-  .bigchart {
-    display: contents;
-  }
-  .smallchart {
     display: none;
-  }
 }
 
+.radiobuttons {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 20px;
+    width: 90%;
+    max-width: 550px;
+    border: 5px solid #FFFF00;
+    border-radius: 10px;
+    grid-area: B;
+}
+
+.label-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 8px;   
+}
+
+.label {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.green {
+    color: #55FF00;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.student-info {
+    width: 90%;
+    max-width: 550px;
+    margin: 10px auto 20px;
+    border: 5px solid #FFFF00;
+    border-radius: 10px;
+    grid-area: S;
+}
+
+.student-name {
+    color: #FFFF00;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 28px;
+    margin: 5px;
+    grid-area: T;
+}
+
+.student-photo {
+    background-color: white;
+    border: 5px solid #9933FF;
+    border-radius: 50%;
+    width: 125px;
+    margin: 5px auto;
+    grid-area: P;
+}
+
+.student-photo img {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.student-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.student-info-grid:nth-child(3) {
+    grid-area: W;
+}
+
+.student-info-grid:nth-child(4) {
+    grid-area: N;
+}
+
+.student-info-grid:nth-child(5) {
+    grid-area: E;
+}
+
+.student-facts {
+    font-size: 20px;
+    margin: 5px;
+    color: #55FF00;
+    grid-area: F;
+}
+
+h5 {
+    background-color: #9933FF;
+    color: black;
+    padding: 3px;
+    margin: 10px 0;
+}
+
+@media (min-width: 460px) {
+    .student-info-grid {
+        display: grid;
+        grid-template: 1fr auto auto auto auto / 40% 60%;
+        grid-template-areas: 
+        "T T"
+        "P W"
+        "P N"
+        "P E"
+        "F F";
+    }
+}
+
+  
+@media (min-width: 900px) {    
+    .bigchart {
+        display: block;
+    }
+    .smallchart {
+        display: none;
+    }
+    h1 {
+        font-size: 64px;
+    }
+    .menu {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        background-color: #4D0099;
+    }
+    .menu-item {
+        font-size: 22px;
+        border-radius: 0;
+        width: auto;
+        margin: 0;
+    }
+    .menu-active {
+        font-size: 24px;
+        border-radius: 0;
+        width: auto;
+        margin: 0;
+    }
+    .main {
+        display: grid;
+        grid-template: 1fr auto / 50% 50%;
+        grid-template-areas: 
+        "C C"
+        "B S";
+    }
+    .charts {
+        grid-area: C;
+    }
+    .student-info {
+        border: 2px solid #FFFF00;
+    }
+    .radiobuttons {
+        border: 2px solid #FFFF00;
+    }
+}
+
+@media (min-width: 1300px) {
+    .main {
+        grid-template: auto 1fr / 80% 20%;
+        grid-template-areas: 
+        "C S"
+        "B B"
+    }
+    .student-info {
+        margin-top: 90px;
+        border: none;
+    }
+    .student-info-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .radiobuttons {
+        flex-direction: row;
+        max-width: none;
+        align-items: baseline;
+        justify-content: space-evenly;
+        border: none;
+    }
+}
+  
+  

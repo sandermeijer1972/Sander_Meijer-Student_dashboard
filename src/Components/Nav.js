@@ -5,7 +5,7 @@ function Nav({handleMenuDisplay, menuDisplay}) {
     return (
         <div className="menu">
             <Link to="/">
-                <div value="all" className={menuDisplay.all ? "menu-active" : "menu-item"} onClick={handleMenuDisplay}>alle studenten</div>
+                <div value="all" className={menuDisplay.all ? "menu-active" : "menu-item"} onClick={handleMenuDisplay}>Home</div>
             </Link>
             <Link to="/Evelyn">
                 <div value="evelyn" className={menuDisplay.evelyn ? "menu-active" : "menu-item"} onClick={handleMenuDisplay}>Evelyn</div>

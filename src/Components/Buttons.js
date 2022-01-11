@@ -2,8 +2,11 @@ import React from "react"
 
 function Buttons({display, handleOptionChange}) {
     return (
-        <div>
-            <label>
+        <div className="radiobuttons">
+            <div className="label-title">
+                welke cijfers wil je in de grafiek zien?
+            </div>
+            <label className="label green">
                 <input
                     type="radio"
                     name="charts-to-display"
@@ -11,9 +14,9 @@ function Buttons({display, handleOptionChange}) {
                     checked={display.fun && !display.difficult}
                     onChange={handleOptionChange}
                 />
-                laat alleen fun-factor zien
+                alleen fun-factor
             </label>
-            <label>
+            <label className="label red">
                 <input
                     type="radio"
                     name="charts-to-display"
@@ -21,9 +24,9 @@ function Buttons({display, handleOptionChange}) {
                     checked={!display.fun && display.difficult}
                     onChange={handleOptionChange}
                 />
-                laat alleen moeilijkheidsgraad zien
+                alleen moeilijkheidsgraad
             </label>
-            <label>
+            <label className="label">
                 <input
                     type="radio"
                     name="charts-to-display"
@@ -31,7 +34,7 @@ function Buttons({display, handleOptionChange}) {
                     checked={display.fun && display.difficult}
                     onChange={handleOptionChange}
                 />
-                laat zowel funfactor als moeilijkheidsgraad zien
+                <span className="green">zowel fun-factor</span> <span className="red">als moeilijkheidsgraad</span>
             </label>
         </div>
     )

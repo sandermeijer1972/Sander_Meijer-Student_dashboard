@@ -2,7 +2,7 @@ import React from "react"
 
 function Footer() {
     return (
-        <h4>FOOTER</h4>
+        <h5><i className="far fa-copyright"></i> Sander Meijer 2022</h5>
     )
 }
 

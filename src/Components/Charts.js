@@ -7,11 +7,11 @@ function Charts({student, display}) {
     //console.log(studentReversed)
 
     return (    
-        <div>
+        <div className="charts">
             <div className="smallchart">
                 <VictoryChart
                     domainPadding={4}
-                    height={850}
+                    height={800}
                     width={250}
                     padding={50}
                 >
@@ -108,7 +108,7 @@ function Charts({student, display}) {
                         tickValues={student.map(item => item.opdracht)}
                         style={{
                             axisLabel: {fill: "yellow", fontSize: 7},
-                            tickLabels: {fill: "white", angle: 40, fontSize: 3.5, padding: 3, verticalAnchor: "middle", textAnchor: "start"},
+                            tickLabels: {fill: "white", angle: 40, fontSize: 4, padding: 3, verticalAnchor: "middle", textAnchor: "start"},
                             axis: {stroke: "white"}
                         }}                        
                     />
