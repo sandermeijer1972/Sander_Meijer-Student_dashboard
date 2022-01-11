@@ -59,7 +59,7 @@ const studentInfo = [
         age: 27,
         residence: "Amsterdam",
         phone: "06-12059143",
-        email: "r.e.indrissi@planet.nl",
+        email: "r.e.idrissi@planet.nl",
         photo: "https://randomuser.me/api/portraits/women/82.jpg"
     },
     {
