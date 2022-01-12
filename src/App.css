@@ -173,7 +173,7 @@ h5 {
   
 @media (min-width: 900px) {    
     .bigchart {
-        display: block;
+        display: block;        
     }
     .smallchart {
         display: none;
@@ -223,6 +223,9 @@ h5 {
         "C S"
         "B B"
     }
+    .bigchart {
+        transform: translateY(-50px);
+    }
     .student-info {
         margin-top: 90px;
         border: none;
@@ -238,6 +241,10 @@ h5 {
         align-items: baseline;
         justify-content: space-evenly;
         border: none;
+        transform: translateY(-50px);
+    }
+    h5 {
+        transform: translateY(-40px);
     }
 }
   
