@@ -15,7 +15,7 @@ const studentInfo = [
         residence: "Amsterdam",
         phone: "06-51390792",
         email: "avdpanne@ziggo.nl",
-        photo: "https://randomuser.me/api/portraits/women/8.jpg"
+        photo: "https://randomuser.me/api/portraits/women/43.jpg"
     },
     {
         firstname: "Floris",
@@ -24,7 +24,7 @@ const studentInfo = [
         residence: "Zaandam",
         phone: "06-51536987",
         email: "graaf_floris@gmail.com",
-        photo: "https://randomuser.me/api/portraits/men/18.jpg"
+        photo: "https://randomuser.me/api/portraits/men/51.jpg"
     },
     {
         firstname: "Hector",
@@ -69,7 +69,7 @@ const studentInfo = [
         residence: "Borculo",
         phone: "06-65206007",
         email: "sbakker@gmail.com",
-        photo: "https://randomuser.me/api/portraits/women/47.jpg"
+        photo: "https://randomuser.me/api/portraits/women/68.jpg"
     },
     {
         firstname: "Wietske",
