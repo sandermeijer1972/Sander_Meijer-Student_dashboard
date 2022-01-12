@@ -222,10 +222,7 @@ h5 {
         grid-template-areas: 
         "C S"
         "B B"
-    }
-    .bigchart {
-        transform: translateY(-50px);
-    }
+    }    
     .student-info {
         margin-top: 90px;
         border: none;
@@ -240,12 +237,8 @@ h5 {
         max-width: none;
         align-items: baseline;
         justify-content: space-evenly;
-        border: none;
-        transform: translateY(-50px);
-    }
-    h5 {
-        transform: translateY(-40px);
-    }
+        border: none;        
+    }    
 }
   
   
